@@ -1,0 +1,185 @@
+body {
+     font-family: Arial, sans-serif;
+    background: #ffe0ff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+    margin: 20px;
+    text-align: center;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
+}
+
+.social-links {
+    list-style-type: none;
+    margin: 10;
+    padding: 10;
+    overflow: hidden;
+    background-color: #ffa8d9;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+
+.social-links li a {
+    display: flex;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+.header-texto {
+   max-width: 60%;
+   font-family: Arial, sans-serif;
+}
+
+h1,h2{
+    margin: 20px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.social-links li a:hover{
+    background-color: #ffff;
+}
+.sobre-mim{
+    text-align: center; /* Centraliza o texto */
+    max-width: 1000px; /* Define a largura máxima do texto */
+    margin: 0 auto; /* Centraliza o bloco de texto na página */
+    padding: 10px;
+}
+
+.sobre-mim-texto{
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+
+/*=========================*/
+.menu {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: #89004f;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: #111;
+}
+
+/*------*/
+.header {
+    padding: 20px;
+    text-align: center;
+}
+
+/*=========================*/
+/*--------------formação---------------*/
+
+.formacao{
+   margin: 0 auto;
+    padding: 20px 0;
+    text-align: center;
+    width: auto;
+    background-color: #ffa8d9;
+}
+
+.formacao li {
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+    margin: 0 1.5%;   
+}
+
+.formacao img {
+    width: 150px;
+}
+.formacao h4 {
+    font-size: 18px;
+    font-weight: bold;
+}
+.formacao P{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+
+
+/*------skills-----*/
+.skill {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.skill li {
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+    
+    margin: 0 1.5%;
+    
+
+}
+
+.skill li:hover {
+    border-color: #C78C19;
+}
+
+.skill li:active {
+    border-color: #088C19;  
+}
+
+.skill li:hover h3 {
+    font-size: 22px;
+}
+
+.skill h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+.skill img {
+    width: 40px;
+
+}
+
+/*-------------------*/
